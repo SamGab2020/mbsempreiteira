@@ -12,6 +12,7 @@ import p1 from '../assets/images/portfolio-1.jpg';
 import p2 from '../assets/images/portfolio-2.jpg';
 import p3 from '../assets/images/portfolio-3.jpg';
 import p4 from '../assets/images/portfolio-4.jpg';
+import p5 from '../assets/images/logo_desktop.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -19,33 +20,38 @@ const IndexPage = () => (
 
     <header className="masthead d-flex">
       <div className="container text-center my-auto">
+	    <img src={p5} alt="" width="300" height="357" class="center" />
         <h1 className="mb-1">{config.heading}</h1>
-        <h3 className="mb-5">
+		<h3 className="mb-5">
           <em>{config.subHeading}</em>
         </h3>
         <Scroll type="id" element="about" offset={100}>
           <a className="btn btn-primary btn-xl" href="#about">
-            About
+            Quem somos
           </a>
         </Scroll>
       </div>
       <div className="overlay"></div>
     </header>
 
-    <section className="content-section bg-light" id="about">
+    <section className="callout" id="about">
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <h2>
-              Stylish Portfolio is the perfect theme for your next project!
+              Quem Somos
             </h2>
             <p className="lead mb-5">
-              This theme features a flexible, UX friendly sidebar menu and stock
-              photos from our friends
+              A empresa Marco Batista Service (MBS) foi criada em 2014 com o
+			  objetivo de realizar o sonho de muitas pessoas transformando seus
+			  projetos pessoais ou empresariais em realidade!
+			  < br/>
+			  Contamos com muita experiência e capacidade de execução bastante
+			  acelerada para a sua obra, independente do tamanho ou localidade.
             </p>
             <Scroll type="id" element="services" offset={100}>
               <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
+                Serviços
               </a>
             </Scroll>
           </div>
@@ -59,85 +65,68 @@ const IndexPage = () => (
     >
       <div className="container">
         <div className="content-section-heading">
-          <h3 className="text-secondary mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
+          <h3 className="text-secondary mb-0">O que oferecemos</h3>
+          <h2 className="mb-5">Serviços</h2>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-screen-smartphone"></i>
+              <i className="far fa-file-alt"></i>
             </span>
             <h4>
-              <strong>Responsive</strong>
+              <strong>Orçamento</strong>
             </h4>
-            <p className="text-faded mb-0">Looks great on any screen size!</p>
+            <p className="text-faded mb-0">Fazemos seu orçamento sem compromisso.</p>
           </div>
           <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-pencil"></i>
+              <i className="fas fa-hammer"></i>
             </span>
             <h4>
-              <strong>Redesigned</strong>
+              <strong>Multi Obras</strong>
             </h4>
             <p className="text-faded mb-0">
-              Freshly redesigned for Bootstrap 4.
+              Estamos prontos para qualquer tipo de obra, incluindo parceiros de pintura e elétrica.
             </p>
           </div>
           <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-like"></i>
+              <i className="fas fa-hard-hat"></i>
             </span>
             <h4>
-              <strong>Favorited</strong>
+              <strong>Engenheiro</strong>
             </h4>
             <p className="text-faded mb-0">
-              Millions of users
-              <i className="fas fa-heart"></i>
+              Indicamos engenheiro capacitado para análises e documentações.
             </p>
           </div>
           <div className="col-lg-3 col-md-6">
             <span className="service-icon rounded-circle mx-auto mb-3">
-              <i className="icon-mustache"></i>
+              <i className="far fa-thumbs-up"></i>
             </span>
             <h4>
-              <strong>Question</strong>
+              <strong>Garantia</strong>
             </h4>
-            <p className="text-faded mb-0">I mustache you a question...</p>
+            <p className="text-faded mb-0">Garantimos o serviço bem executado e no prazo combinado!<i className="fas fa-heart"></i></p>
           </div>
         </div>
       </div>
     </section>
-
-    <section className="callout">
-      <div className="container text-center">
-        <h2 className="mx-auto mb-5">
-          Welcome to
-          <em>your</em>
-          next website!
-        </h2>
-        <a
-          className="btn btn-primary btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-stylish"
-        >
-          Download Now!
-        </a>
-      </div>
-    </section>
-
+	
     <section className="content-section" id="portfolio">
       <div className="container">
         <div className="content-section-heading text-center">
-          <h3 className="text-secondary mb-0">Portfolio</h3>
-          <h2 className="mb-5">Recent Projects</h2>
+          <h3 className="text-secondary mb-0">Novidades</h3>
+          <h2 className="mb-5">Projetos recentes</h2>
         </div>
         <div className="row no-gutters">
           <div className="col-lg-6">
             <a className="portfolio-item" href="/#">
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Stationary</h2>
+                  <h2>Guarulhos</h2>
                   <p className="mb-0">
-                    A yellow pencil with envelopes on a clean, blue backdrop!
+                    Pintura e acabamento em escola.
                   </p>
                 </span>
               </span>
@@ -148,10 +137,9 @@ const IndexPage = () => (
             <a className="portfolio-item" href="/#">
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Ice Cream</h2>
+                  <h2>Atibaia</h2>
                   <p className="mb-0">
-                    A dark blue background with a colored pencil, a clip, and a
-                    tiny ice cream cone!
+                    Pintura, piso e acabamento nesta grande construção!
                   </p>
                 </span>
               </span>
@@ -162,10 +150,9 @@ const IndexPage = () => (
             <a className="portfolio-item" href="/#">
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Strawberries</h2>
+                  <h2>Diadema</h2>
                   <p className="mb-0">
-                    Strawberries are such a tasty snack, especially with a
-                    little sugar on top!
+                    Parece simples, mas as escadas exigem muita atenção e cuidado!
                   </p>
                 </span>
               </span>
@@ -176,10 +163,9 @@ const IndexPage = () => (
             <a className="portfolio-item" href="/#">
               <span className="caption">
                 <span className="caption-content">
-                  <h2>Workspace</h2>
+                  <h2>Diadema</h2>
                   <p className="mb-0">
-                    A yellow workspace with some scissors, pencils, and other
-                    objects.
+                    Olha o tamanho desta laje!
                   </p>
                 </span>
               </span>
@@ -187,18 +173,6 @@ const IndexPage = () => (
             </a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section className="content-section bg-primary text-white">
-      <div className="container text-center">
-        <h2 className="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="/#" className="btn btn-xl btn-light mr-4">
-          Click Me!
-        </a>
-        <a href="/#" className="btn btn-xl btn-dark">
-          Look at Me!
-        </a>
       </div>
     </section>
 

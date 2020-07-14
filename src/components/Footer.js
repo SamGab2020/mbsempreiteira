@@ -21,8 +21,15 @@ export default function Footer() {
           })}
         </ul>
         <p className="text-muted small mb-0">
-          Copyright &copy; Gatsby Starter Stylish
+          &copy; Marco Batista Service.
         </p>
+		<br/>
+        <p className="text-muted small mb-0">
+          Manutenção - &copy; <a href="https://samgabtecnologia.netlify.app/">SamGab Tecnologia.</a>
+        </p>
+		<p className="text-muted small mb-0">
+          Design - &copy; <a href="https://theanubhav.com/">Anubhav.</a>
+        </p>		  
       </div>
     </footer>
   );

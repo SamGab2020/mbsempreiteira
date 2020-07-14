@@ -38,7 +38,7 @@ export default class Header extends Component {
                 type="class"
                 element="page-top"
               >
-                <a href="#page-top">Home</a>
+                <a href="#page-top">Início</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
@@ -47,7 +47,7 @@ export default class Header extends Component {
                 type="id"
                 element="about"
               >
-                <a href="#about">About</a>
+                <a href="#about">Quem somos</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
@@ -56,7 +56,7 @@ export default class Header extends Component {
                 type="id"
                 element="services"
               >
-                <a href="#services">Services</a>
+                <a href="#services">Serviços</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
@@ -65,7 +65,7 @@ export default class Header extends Component {
                 type="id"
                 element="portfolio"
               >
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">Novidades</a>
               </Scroll>
             </li>
             <li className="sidebar-nav-item">
@@ -74,7 +74,7 @@ export default class Header extends Component {
                 type="id"
                 element="contact"
               >
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contato</a>
               </Scroll>
             </li>
           </ul>

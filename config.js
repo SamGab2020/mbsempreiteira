@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Stylish', // <title>
+  siteTitle: 'MBS Empreiteira', // <title>
   manifestName: 'Stylish',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,28 +8,26 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'MBS Empreiteira',
+  subHeading: '',
 
   // social
   socialLinks: [
     {
       icon: 'icon-social-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://www.google.com',
     },
     {
       icon: 'icon-social-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://www.google.com',
     },
     {
       icon: 'icon-social-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.google.com',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
   phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
 };
