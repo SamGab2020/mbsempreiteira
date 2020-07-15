@@ -14,19 +14,14 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'icon-social-github',
-      name: 'Github',
-      url: 'https://www.google.com',
+      icon: 'icon-envelope-letter',
+      name: 'Email',
+      url: 'mailto:empreiteirambscontos@gmail.com',
     },
     {
-      icon: 'icon-social-twitter',
-      name: 'Twitter',
-      url: 'https://www.google.com',
-    },
-    {
-      icon: 'icon-social-facebook',
-      name: 'Facebook',
-      url: 'https://www.google.com',
+      icon: 'icon-phone',
+      name: 'Phone',
+      url: 'https://api.whatsapp.com/send?phone=5511964749876',
     },
   ],
   phone: '000-00000',
